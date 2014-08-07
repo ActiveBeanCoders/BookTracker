@@ -1,0 +1,113 @@
+body {
+	background-color: #b0c4de;
+	font: helvetica;
+}
+
+#container {
+	width: 500px;
+	background-color: #fff;
+	margin: 30px auto;
+	padding: 30px;
+	border-radius: 5px;
+	box-shadow: 5px;
+}
+
+.green {
+	font-weight: bold;
+	color: green;
+}
+
+.message {
+	margin-bottom: 10px;
+}
+
+label {
+	width: 150px;
+	display: inline-block;
+}
+
+form {
+	line-height: 160%;
+}
+
+.hide {
+	display: none;
+}
+
+table,th,td {
+	border: 1px;
+	border-style: solid;
+	border-color: #0000ff;
+	border-collapse: collapse;
+}
+
+table {
+	width: 100%;
+}
+
+.logo {
+	display: inline-block;
+	margin-left: -2;
+	margin-right: -2;
+	height: 100px;
+	width: 100px;
+}
+
+#images {
+	text-align: center;
+}
+
+.status {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 20px;
+	width: 20px;
+}
+
+a.button {
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	text-decoration: none;
+	padding: 4px;
+	border-color: #000000;
+}
+
+td.noborder {
+	border: 0px;
+}
+
+tr.titletext {
+	font-style: italic;
+	color: #0000ff;
+}
+
+.errorblock {
+	color: #ff0000;
+	background-color: #ffEEEE;
+	border: 3px solid #ff0000;
+	padding: 8px;
+	margin: 16px;
+}
+
+.verticalLine {
+	border-right: solid #0000ff;
+}
+
+div.container {
+    overflow: hidden;
+}
+
+div.left {
+	float: left;
+	width: 10%;
+	padding-bottom: 1000px;
+	margin-bottom: -1000px;
+}
+
+div.right {
+	float: right;
+	width: 85%;
+	padding-bottom: 1000px;
+	margin-bottom: -1000px;
+}
